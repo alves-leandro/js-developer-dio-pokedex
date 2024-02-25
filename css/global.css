@@ -1,0 +1,159 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --grayscale-dark: #212121;
+  --grayscale-medium: #666666;
+  --grayscale-light: #e0e0e0;
+  --grayscale-white: #ffffff;
+
+  --headline-font-size: 1.5rem; /* 24px */
+  --body1-font-size: 0.875rem; /* 14px */
+  --subtitle1-font-size: 0.875rem; /* 14px */
+  --subtitle2-font-size: 0.75rem; /* 12px */
+  --subtitle3-font-size: 0.625rem; /* 10px */
+
+  --headline-line-height: 2rem; /* 32px */
+  --common-line-height: 1rem; /* 16px */
+
+  --font-weight-bold: 700;
+
+  --drop-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.25) inset;
+}
+
+.normal {
+  background-color: rgba(166, 168, 119, 0.5);
+}
+
+.grass {
+  background-color: rgba(119, 200, 80, 0.5);
+}
+
+.fire {
+  background-color: rgba(238, 127, 48, 0.5);
+}
+
+.water {
+  background-color: rgba(103, 143, 238, 0.5);
+}
+
+.electric {
+  background-color: rgba(247, 207, 46, 0.5);
+}
+
+.ice {
+  background-color: rgba(152, 213, 215, 0.5);
+}
+
+.ground {
+  background-color: rgba(223, 191, 105, 0.5);
+}
+
+.flying {
+  background-color: rgba(169, 143, 240, 0.5);
+}
+
+.poison {
+  background-color: rgba(160, 64, 160, 0.5);
+}
+
+.fighting {
+  background-color: rgba(191, 48, 41, 0.5);
+}
+
+.psychic {
+  background-color: rgba(246, 86, 135, 0.5);
+}
+
+.dark {
+  background-color: rgba(114, 88, 71, 0.5);
+}
+
+.rock {
+  background-color: rgba(184, 161, 55, 0.5);
+}
+
+.bug {
+  background-color: rgba(168, 183, 32, 0.5);
+}
+
+.ghost {
+  background-color: rgba(110, 88, 150, 0.5);
+}
+
+.steel {
+  background-color: rgba(185, 183, 207, 0.5);
+}
+
+.dragon {
+  background-color: rgba(111, 56, 246, 0.5);
+}
+
+.fairy {
+  background-color: rgba(249, 174, 199, 0.5);
+}
+
+h2,
+h3,
+h4,
+.body1-fonts,
+.body2-fonts,
+.body3-fonts {
+  line-height: var(--common-line-height);
+}
+
+p {
+  font-size: var(--body1-font-size);
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: var(--headline-font-size);
+  line-height: var(--headline-line-height);
+}
+
+h2 {
+  font-size: var(--subtitle1-font-size);
+}
+
+h3 {
+  font-size: var(--subtitle2-font-size);
+}
+
+h4 {
+  font-size: var(--subtitle3-font-size);
+  font-weight: var(--font-weight-bold);
+}
+
+body {
+  background-color: var(--grayscale-light);
+  background-image: url("../assets/wp10200996.png");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+}
+
+.content {
+  padding: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.linkedin {
+  color: var(--grayscale-dark);
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  color: var(--grayscale-medium);
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
